@@ -1,0 +1,20 @@
+".container": {
+	backgroundColor:"white"
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}, 
+"#stampButton": {
+  	//height: "25%",
+  	//width: "25%",
+  	//position: "relative",
+  	//margin: "50px",
+  	//color: "white",
+  	textAlign: "center",
+  	//lineHeight: "100px",
+  	borderRadius: "25px",
+  	boxShadow: "2px 2px 4px rgba(0,0,0,0.4)",
+	background: "linear-gradient(top,  #e51d16 0%,#b21203 100%)",
+}

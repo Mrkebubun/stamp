@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container">
+		<Button id="stampButton" onClick="scanQRCode" title="Stamp !"
+            top="10" width="50%" height="20%" />
+	</Window>
+</Alloy>
