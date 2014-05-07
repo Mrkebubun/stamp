@@ -1,4 +1,4 @@
-## Welcome to Stamp a mobile app for signing multi sig transaction from a QR code.
+## Welcome to Stamp a mobile app for signing multi sig transactions from a QR code.
 
 ### Potential Uses
 
@@ -17,6 +17,27 @@ Basically Stamp is a Hierarchcal deterministic Bitcoin wallet that doesn't store
 4. Test on iOS
 
 ### Proposed API
+
+Below are some example Stamp commands.
+
+#### Get a Master Public Key
+
+mpk|service-name|Callback URL (POST)|Pipe seperated paramers you supply
+
+e.g.
+
+mpk|mywallet.com|hxxp://mywallet.com/external_mpk|user|980190962
+
+#### To Sign a TX
+
+mpk|service-name|Callback URL (GET) to get the TX|Callback URL (POST) to send the signed TX|Pipe seperated paramers you supply
+
+e.g.
+
+sign|mywallet.com|hxxp://mywallet.com/get_tx|hxxp://mywallet.com/get_tx|user|980190962
+
+Simply take the Stamp command above and create a QR code for stamp to scan.
+
 
 ### How do I build this ?
 
