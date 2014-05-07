@@ -2,9 +2,9 @@ function scanQRCode(e) {
 	
 	doScan();
 	
-	//processQRRequest('mpk|onchain.io|http://192.168.178.29:3000/external_mpk|user|980190962');
+	//processQRRequest('mpk|mywallet.com|http://192.168.178.29:3000/external_mpk|user|980190962');
 	//processQRRequest('sign|345678|sdfsdgdfgdffdsdsfsffssdfsdfsdfsfweewrsfsdsfsdfsdf');
-	//processQRRequest('mpk|onchain.io|https://www.onchain.io/signing/324567/');
+	//processQRRequest('mpk|mywallet.com|https://www.onchain.io/signing/324567/');
 }
 
 function processQRRequest(data) {
