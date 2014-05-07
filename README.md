@@ -18,9 +18,9 @@ Basically Stamp is a Hierarchcal deterministic Bitcoin wallet that doesn't store
 
 ### Proposed API
 
-### Can I help ?
+### How do I build this ?
 
-That would be great. 
+Stamp was written with the Appcelerator Platform http://www.appcelerator.com/. Download the IDE import the project and (hopefully) off you go.
 
 
 
