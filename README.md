@@ -22,19 +22,19 @@ Below are some example Stamp commands.
 
 #### Get a Master Public Key
 
-mpk|service-name|Callback URL (POST)|Pipe seperated paramers you supply
+    mpk|service-name|Callback URL (POST)|Pipe seperated paramers you supply
 
 e.g.
 
-mpk|mywallet.com|hxxp://mywallet.com/external_mpk|user|980190962
-
+    mpk|mywallet.com|hxxp://mywallet.com/external_mpk|user|980190962
+  
 #### To Sign a TX
 
-mpk|service-name|Callback URL (GET) to get the TX|Callback URL (POST) to send the signed TX|Pipe seperated paramers you supply
+    sign|service-name|Callback URL (GET) to get the TX|Callback URL (POST) to send the signed TX|Pipe seperated paramers you supply
 
 e.g.
 
-sign|mywallet.com|hxxp://mywallet.com/get_tx|hxxp://mywallet.com/get_tx|user|980190962
+    sign|mywallet.com|hxxp://mywallet.com/get_tx|hxxp://mywallet.com/get_tx|user|980190962
 
 Simply take the Stamp command above and create a QR code for stamp to scan.
 
