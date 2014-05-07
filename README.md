@@ -1,18 +1,17 @@
-Welcome to your Appcelerator Titanium Mobile Project
+Welcome to Stamp a mobile app for signing multi sig transaction from a QR code.
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+Potential Uses
+
+* Online Wallets. Stamp can be used as a safer form of 2 factor authentication.
+* Online Market Places. A new wave of cryptocurrency marketplaces using multi sig transactions need an easy way for the user to sign the transaction.
+
+How ?
+
+Basically Stamp is a Hierarchcal deterministic Bitcoin wallet that doesn't store any Bitcoins. Rather it can issue Master Public Keys and sign P2SH transactions created with those keys.
+
+Plan
+
+Proposed API.
 
 
-
-----------------------------------
-Stuff our legal folk make us say:
-
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
-
-Titanium is Copyright (c) 2008-2013 by Appcelerator, Inc. All Rights Reserved.
-
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
 
